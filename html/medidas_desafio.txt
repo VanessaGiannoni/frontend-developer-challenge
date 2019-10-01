@@ -1,0 +1,27 @@
+Detalhes da tela
+
+Tamanho da janela-> width: 1500px; height: 918px;
+Tamanho do design-> width: 1500px; height: 2015px;
+
+Cores-> #FFF; #707070; #888888; #000029;
+
+Estilos de caracter:
+header {
+    Helvetica Neue-> Regular - 20px (h3) #FFF;
+    Helvetica Neue-> Bold - 40px (h1) #FFF;
+    Helvetica Neue-> Regular - 14px (h4) #888888; (Botões header)
+}
+
+body titulo prod {
+    Helvetica Neue-> Regular - 14px (h4) #888888;   
+    Helvetica Neue-> Regular - 12px (p) #888888; (descrição do produto, DE:, parcelas) 
+    Helvetica Neue-> Bold - 16px (p) #888888; (Por:)
+    Helvetica Neue-> Regular - 16px #888888 (buttons);
+    Helvetica Neue-> Bold - 18px (h3) #888888 (newsletter);
+    
+}
+
+footer {
+    Helvetica Neue-> Regular - 12px (p) #FFF;
+}
+

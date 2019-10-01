@@ -1,0 +1,352 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; 
+    margin: 0;
+    max-width: 1500px;
+}
+/* header styles */
+#top {
+    display: block;
+    top: 0;
+    bottom: 0;
+    width: 1500px;
+    height: 319px;
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+h3 {
+    margin: 69px 0 0 635px;
+    width: 227px;
+    height: 23px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+    color: #FFF;
+    letter-spacing: 0;
+    line-height: 24px;
+    opacity: 1;
+}
+
+h1 {
+    margin: 10px 0 0 571px;
+    width: 358px;
+    height: 48px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+    letter-spacing: 0;
+    line-height: 49px;
+    opacity: 1;
+}
+
+h6 {
+    margin: 20px 0 0 476px;
+    width: 548px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFF;
+    letter-spacing: 0;
+    line-height: 16px;
+    opacity: 1;
+}
+
+button {
+    display: inline;
+    font: normal 16px "Helvetica Neue"; 
+    letter-spacing: 0;
+    color: #888888;
+    width: 150px;
+    height: 40px;
+    background: #FFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px  #000029;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+nav {
+    width: 769px;
+    height: 50px;
+    margin-top: 45px;
+    margin-left: 371px;
+    margin-right: 359.5px;
+    margin-bottom: 39.33px;
+}
+
+#button_1, #button_2, #button_3 {
+    margin-right: 40px; 
+}
+
+/* End of header styles */
+/* Container styles */
+div.container {
+    height: 1509.03px;
+    background-color: #FFF;
+}
+
+div.title h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #888888;
+    text-align: left;
+    line-height: 16px;
+    letter-spacing: 0;
+    margin-left: 666px;
+    width: 181px;
+    height: 22px;
+    margin-bottom: 50px;
+
+}
+
+div.products-box {
+    width: 931px;
+    height: 740px;
+    display: flex;
+    margin-left: 286px;
+}
+
+div.products-box-2 {
+    width: 931px;
+    height: 740px;
+    display: flex;
+    margin-left: 286px;
+    margin-top: -450px; 
+}
+
+div.products-box-3 {
+    display: none;
+}
+
+div.products{
+    width: 25%;
+    height: 350px;
+    text-align: left;
+    float: left;
+    margin-right: 41px;
+}
+
+#product_img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 14px;
+    border: 1px solid #707070;
+    background: #FFF 0% 0% no-repeat padding-box;
+}
+
+#product_name{
+    width: 111px;
+    height: 16px;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+    color: #888888;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+
+#description {
+    width: 200px;
+    height: 60px;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+    color: #888888;
+    margin-top: 30px;
+    
+}
+
+#old_price {
+    width: 66px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: #888888;
+    margin-bottom: 6px;
+
+}
+
+#price {
+    width: 120px;
+    height: 19px;
+    color: #888888;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+#or {
+    width: 88px;
+    height: 14px;
+    font-size: 12px;
+    color: #888888;
+    letter-spacing: 0;
+    line-height: 16px;
+
+}
+
+#btn_comprar {
+    width: 200px;
+    height: 30px;
+    background: #FFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    color: #888888;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    clear: both;
+}
+
+#btn_more_items {
+    width: 260px;
+    height: 39px;
+    background: #FFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    color: #888888;
+    font-size: 16px;
+    margin-left: 620px;
+    bottom: 754px;
+}
+
+/* Newsletter form */
+
+
+ #share{
+    width: 210px;
+    height: 22px;
+    margin-left: 655px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: #888888;
+    text-align: left;
+}
+
+#share-friends {
+    width: 534px;
+    height: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    font-size: 14px;
+    color: #888888;
+    opacity: 1;
+    text-align: center;
+    margin-left: 483px;
+    margin-top: 44px;
+    
+}
+
+
+ div.news-form {
+    margin-top: 174px;
+    margin-bottom: 44px;
+}
+
+
+
+.news-form label[for="name"] {
+    width: 112px;
+    height: 14px;
+    color: #888888;
+    text-align: left;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0;
+    margin-left: 390px;
+    opacity: 1;
+}
+
+.news-form label[for="mail"] {
+    width: 37px;
+    height: 14px;
+    color: #888888;
+    text-align: left;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0;
+    margin-left: 270px;
+    opacity: 1;
+}
+
+.news-form input {
+    width: 340px;
+    height: 30px;
+    background: #FFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.news-form input[id="name"] {
+    margin-left: 390px;
+}
+
+.news-form input[id="mail"] {
+    margin-left: 40px;
+}
+
+div.newsletter input[id="send-now"] {
+    width: 260px;
+    height: 39px;
+    margin-left: 620px;
+    margin-bottom: 142.36px;
+    margin-top: 50px;
+    background: #FFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    font-size: 16px;
+    color: #888888;
+
+}
+
+#msgemail, #msgname {
+    text-align: center;
+    font-size: 12px;
+    opacity: 1;
+
+}
+/* newsletter end form */
+/* End container styles */
+/* Footer styles */
+footer {
+    width: 1500px;
+    height: 200.64px;
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+#footer {
+    margin: 72px 620px 72px 620px;
+    width: 260px;
+    height: 50px;
+}
+
+#footer p{
+    font-size: 12px;
+    font-weight: normal;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 0;
+    opacity: 1;
+    line-height: 18px;
+    
+}
+/* End footer styles */
